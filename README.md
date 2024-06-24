@@ -28,6 +28,7 @@ This repository contains a **Node.js** application for managing users, complete 
         ```env
         MONGO_URI=your_mongodb_uri
         PORT=your_port
+        TOKEN_SECRET=your_token_secret
         ```
 
 ## **Usage**
