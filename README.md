@@ -63,40 +63,25 @@ This repository contains a **Node.js** application for managing users, complete 
 - **POST** `/worko/user/login` - Login an existing user.
 - **GET** `/worko/user/logout` - Logout user.
 - **GET** `/worko/user` - Get a list of all users.
-- **GET** `/worko/user/:userId` - Get a specific user.
-- **PUT** `/worko/user` - Update Logged in user's information.
-- **PATCH** `/worko/user` - Update Logged in user's information.
-- **DELETE** `/worko/user` - Delete Logged in user.
+- **GET** `/worko/user/:userId` - Get a specific user.<br>
+  ###### For Next 3, you need to **Logged in** for Performing Operations
+  
+- **PUT** `/worko/user` - Update Logged in user's all information.
+- **PATCH** `/worko/user` - Update Logged in user's some information.
+- **DELETE** `/worko/user` - Soft Delete Logged in user.
 
 ## **Deployment**
-The project is deployed and accessible at [https://user-management-assignment.onrender.com](https://user-management-assignment.onrender.com). Users can interact with the API using tools like Postman, ThunderClient, etc., by using the following endpoints:
+The project is deployed and accessible at [https://user-management-assignment.onrender.com](https://user-management-assignment.onrender.com). Users can interact with the API using tools like Postman, ThunderClient, etc., by using the following URLs:
 
-- **POST** `https://user-management-assignment.onrender.com/register` - Register a new user.
-- **POST** `https://user-management-assignment.onrender.com/login` - Log in an existing user.
-- **GET** `https://user-management-assignment.onrender.com/users` - Get a list of users.
-- **GET** `https://user-management-assignment.onrender.com/users/:id` - Get a specific user.
-- **PUT** `https://user-management-assignment.onrender.com/users/:id` - Update a user's information.
-- **DELETE** `https://user-management-assignment.onrender.com/users/:id` - Delete a user.
-
-## **Contributing**
-1. Fork the repository.
-2. Create a new branch:
-    ```sh
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```sh
-    git commit -m "Description of changes"
-    ```
-4. Push to the branch:
-    ```sh
-    git push origin feature-branch
-    ```
-5. Create a pull request.
-
-## **License**
-This project is licensed under the **MIT License**.
+- **POST** `https://user-management-assignment.onrender.com/worko/user` - Create a new user.
+- **POST** `https://user-management-assignment.onrender.com/worko/user/login` - Login an existing user.
+- **GET** `https://user-management-assignment.onrender.com/worko/user/logout` - Logout user.
+- **GET** `https://user-management-assignment.onrender.com/worko/user` - Get a list of all users.
+- **GET** `https://user-management-assignment.onrender.com/worko/user/:userId` - Get a specific user.<br>
+  ###### For Next 3, you need to **Logged in** for Performing Operations
+  
+- **PUT** `https://user-management-assignment.onrender.com/worko/user` - Update Logged in user's all information.
+- **PATCH** `https://user-management-assignment.onrender.com/worko/user` - Update Logged in user's some information.
+- **DELETE** `https://user-management-assignment.onrender.com/worko/user` - Soft Delete Logged in user.
 
 ---
-
-Feel free to customize this template further according to your project's specific details.
