@@ -59,12 +59,14 @@ This repository contains a **Node.js** application for managing users, complete 
 
 
 ## **Endpoints**
-- **POST** `/register` - Register a new user.
-- **POST** `/login` - Log in an existing user.
-- **GET** `/users` - Get a list of users.
-- **GET** `/users/:id` - Get a specific user.
-- **PUT** `/users/:id` - Update a user's information.
-- **DELETE** `/users/:id` - Delete a user.
+- **POST** `/worko/user` - Create a new user.
+- **POST** `/worko/user/login` - Login an existing user.
+- **GET** `/worko/user/logout` - Logout user.
+- **GET** `/worko/user` - Get a list of all users.
+- **GET** `/worko/user/:userId` - Get a specific user.
+- **PUT** `/worko/user` - Update Logged in user's information.
+- **PATCH** `/worko/user` - Update Logged in user's information.
+- **DELETE** `/worko/user` - Delete Logged in user.
 
 ## **Deployment**
 The project is deployed and accessible at [https://user-management-assignment.onrender.com](https://user-management-assignment.onrender.com). Users can interact with the API using tools like Postman, ThunderClient, etc., by using the following endpoints:
