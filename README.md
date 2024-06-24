@@ -26,8 +26,8 @@ This repository contains a **Node.js** application for managing users, complete 
     - Create a `.env` file in the root directory.
     - Add the following variables:
         ```env
-        MONGO_URI=your_mongodb_uri
         PORT=your_port
+        MONGO_URL=your_mongodb_uri
         TOKEN_SECRET=your_token_secret
         ```
 
@@ -88,12 +88,12 @@ The project is deployed and accessible at [https://user-management-assignment.on
 To execute actions on platforms such as Postman or ThunderClient, such as performing operations like POST, PUT, or PATCH, navigate to the body section and choose JSON as the raw format. Then, adjust the body content according to the provided template below:
 
 {<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Email":"",<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Name":"",<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Age":"",<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"City":"",<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Password":"",<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ZipCode":""<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;"Email":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;"Name":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;"Age":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;"City":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;"Password":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;"ZipCode":""<br>
 }<br>
 
 ---
