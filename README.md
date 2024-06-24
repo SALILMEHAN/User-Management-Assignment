@@ -84,4 +84,16 @@ The project is deployed and accessible at [https://user-management-assignment.on
 - **PATCH** `https://user-management-assignment.onrender.com/worko/user` - Update Logged in user's some information.
 - **DELETE** `https://user-management-assignment.onrender.com/worko/user` - Soft Delete Logged in user.
 
+## **Templates**
+To execute actions on platforms such as Postman or ThunderClient, such as performing operations like POST, PUT, or PATCH, navigate to the body section and choose JSON as the raw format. Then, adjust the body content according to the provided template below:
+
+{<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Email":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Name":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Age":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"City":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Password":"",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ZipCode":""<br>
+}<br>
+
 ---
