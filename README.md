@@ -39,22 +39,23 @@ This repository contains a **Node.js** application for managing users, complete 
 2. The server will run on the specified port. Use Postman or any API client to test the endpoints.
 
 ## **Project Structure**
-.
-├── config
-│ └── config.js
-├── controllers
-│ └── userController.js
-├── middleware
-│ └── errorHandler.js
-├── models
-│ └── userModel.js
-├── routes
-│ └── userRoutes.js
-├── .gitignore
-├── index.js
-├── package-lock.json
-├── package.json
-└── README.md
+
+├── Config<br>
+│ └── database.js<br>
+├── Controllers<br>
+│ └── userController.js<br>
+├── Middleware<br>
+│ └── isAuthenticated.js<br>
+│ └── validate.js<br>
+├── Model<br>
+│ └── userSchema.js<br>
+├── Routes<br>
+│ └── userRoute.js<br>
+├── .gitignore<br>
+├── index.js<br>
+├── package-lock.json<br>
+├── package.json<br>
+└── README.md<br>
 
 
 ## **Endpoints**
